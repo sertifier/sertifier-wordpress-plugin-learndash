@@ -3,7 +3,7 @@
 * Plugin Name: Sertifier Certificates & Open Badges
 * Plugin URI: https://www.sertifier.com/
 * Description: Send certificates and badges to your participants via sertifier with automations specific to LearnDash LMS.
-* Version: 1.10
+* Version: 1.0
 * Author: Sertifier
 * Author URI: https://sertifier.com/
 * License: GPLv2 or later
