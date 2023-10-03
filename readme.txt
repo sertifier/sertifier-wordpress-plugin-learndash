@@ -1,4 +1,4 @@
-=== Sertifier Certificates & Open Badges ===
+=== Sertifier Certificates & Open Badges - LearnDash Plugin ===
 Contributors: sertifier
 Tags: sertifier, certificates, badges, credentials
 Requires at least: 4.7
@@ -8,7 +8,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Send custom certificates and badges to your students on autopilot. Create, update and manage them on your Wordpress site
+Send custom certificates and badges to your students on autopilot. Create, update and manage them on your LearnDash site
 
 == Description ==
 
