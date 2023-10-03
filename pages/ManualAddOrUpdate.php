@@ -32,7 +32,7 @@ class Sertifier_Credentails_ManualAddOrUpdate {
     
     public function sertifier_delivery_check($delivery) {
         if (
-            $delivery->type == 11 &&
+            $delivery->type == 13 &&
             $delivery->detailId != "00000000-0000-0000-0000-000000000000" &&
             ($delivery->designId != "00000000-0000-0000-0000-000000000000" ||
                 $delivery->badgeId != "00000000-0000-0000-0000-000000000000") &&
