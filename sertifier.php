@@ -62,7 +62,7 @@ class Sertifier {
             'Sertifier Certificates & Badges',
             'list_users',
             'sertifier_home',
-            array ( $this, 'home_page'),
+            '',
             'dashicons-tablet'
         );
     }
