@@ -1,4 +1,4 @@
-=== Sertifier Certificates & Open Badges - LearnDash Plugin ===
+=== Sertifier Certificates & Open Badges - LearnDash ===
 Contributors: sertifier
 Tags: sertifier, certificates, badges, credentials
 Requires at least: 4.7
