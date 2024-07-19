@@ -72,7 +72,8 @@ class Sertifier_Credentails_ManualAddOrUpdate {
 
         $courses = get_posts([
             'post_status' => 'publish',
-            'post_type' => 'sfwd-courses'
+            'post_type' => 'sfwd-courses',
+            'numberposts' => -1
         ]);
 
         $groups = learndash_get_groups();
