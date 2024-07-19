@@ -72,7 +72,8 @@ class Sertifier_Credentails_AutoAddOrUpdate {
 
         $courses = get_posts([
             'post_status' => 'publish',
-            'post_type' => 'sfwd-courses'
+            'post_type' => 'sfwd-courses',
+            'numberposts' => -1
         ]);
 
         if($_POST){
