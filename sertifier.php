@@ -48,7 +48,10 @@ class Sertifier {
         $this->learndash_hooks();
 
         wp_enqueue_style('styles', plugins_url( '/assets/css/style.css', __FILE__ ), array());
-        wp_enqueue_script( 'script-js', plugins_url( '/assets/js/admin.js', __FILE__ ), array('jquery'));
+        
+        if($_GET["page"] == "sertifier_manual_issues" || $_GET["page"] == "sertifier_auto_issues" || $_GET["page"] == "sertifier_auto_add_or_update" || $_GET["page"] == "sertifier_manual_add_or_update"){
+            wp_enqueue_script( 'script-js', plugins_url( '/assets/js/admin.js', __FILE__ ), array('jquery'));
+        }
         
         wp_localize_script( 'script-js', 'plugin_ajax_object',
         array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
